@@ -1,7 +1,7 @@
+from random import *
 print ("this is a game which you should find the number")
-while True:
-    yes_list = ["yes", "y", "yeah"]
-    No = 1381
+No = randint(1,10000)
+while True:  
     guess = input("guess what the number is: ")
     guess = int(guess)
     if guess == No :
